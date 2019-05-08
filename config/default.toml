@@ -1,0 +1,6 @@
+[rabbit_mq]
+address = "172.16.0.102"
+pre_fetch_items = 0
+
+[exchange]
+ticket_reader_data = "ticker_reader_data"

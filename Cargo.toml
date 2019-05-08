@@ -1,0 +1,11 @@
+[package]
+name = "rabbitmq_init"
+version = "0.1.0"
+authors = ["Vladimir Kocjancic <vkocjancic@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+amqp = "*"
+config = "*"
+serde = "*"
+serde_derive = "*"
