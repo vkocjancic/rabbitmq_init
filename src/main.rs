@@ -27,7 +27,7 @@ fn main() {
     );
     println!("Connected to rabbitmq on channel {}", mq.channel.id);
     mq.create_exchange(&settings.exchange.ticket_reader_data);
-    println!("Created 'ticket_reader_data' exchange");
+    println!("Created '{}' exchange", settings.exchange.ticket_reader_data);
     mq.close();
     println!("Connection to rabbitMq closed");
 }
